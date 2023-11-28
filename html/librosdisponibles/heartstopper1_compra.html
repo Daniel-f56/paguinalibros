@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/librosdisponibles.css">
+    <title>Document</title>
+    <nav>
+        <ul>
+           <button class="boton"><li><a href="/html/compraventa.html" class="texto_boton">Regtesar a la paguina anterior</a></li></button>
+        </ul>
+    </nav>
+</head>
+<body>
+    <main>
+        <section id="busqueda" class="seccion">
+          <!-- Aquí irá el formulario de búsqueda -->
+        </section>
+        <section id="libro" class="seccion">
+          <!-- Aquí irá la información detallada del libro -->
+          <h2 class="titulo2">Heartstopper Vol.1</h2>
+          <img src="/multimedia/heartstopper1.png" alt="Portada de libro" width="200px" height="300" class="imagen" class="texto">
+          <p class="texto">Autor: Alice Oceman</p>
+          <p class="texto">Editorial: Penguin</p>
+          <p class="texto">Precio: $40.000</p>
+  
+          <!-- Aquí irá el formulario para comprar el libro -->
+          <form action="#" method="post" class="formulario">
+            <label for="nombre" class="texto_label">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required class="input">
+            <br>
+            <br>
+  
+            <label for="correo" class="texto_label">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required class="input">
+            <br>
+            <br>
+  
+            <label for="tarjeta" class="texto_label">Número de tarjeta:</label>
+            <input type="text" id="tarjeta" name="tarjeta" required class="input">
+            <br>
+            <br>
+  
+            <button type="submit">Comprar</button>
+          </form>
+  
+        </section>
+      </main>
+</body>
+</html>

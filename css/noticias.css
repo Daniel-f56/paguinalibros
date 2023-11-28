@@ -1,0 +1,70 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, h2, p, a, button, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para la navegación de regreso */
+nav {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+.boton {
+    background-color: #ff8800;
+    color: #3498db;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para los títulos */
+.titulo1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titulo2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Estilo para la lista de enlaces */
+ul {
+    list-style: none;
+}
+
+.texto {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.texto:hover {
+    color: #2980b9;
+}
+
+/* Alineación de enlaces */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Espaciado entre títulos y listas */
+ul + h2 {
+    margin-top: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/ventadelibros.css">
+    <title>Document</title>
+    <nav>
+        <ul>
+            <button class="boton"><li><a href="/html/compraventa.html" class="texto_boton">Volver atras</a></li></button>
+        </ul>
+    </nav>
+</head>
+<body>
+    <h1 class="titulo1">Registro</h1>
+	<form action="registro.php" method="post" class="formulario">
+		<label for="nombre" class="texto">Nombre:</label><br>
+		<input type="text" id="nombre" name="nombre" class="input"><br>
+
+		<label for="correo" class="texto">Correo electrónico:</label><br>
+		<input type="email" id="correo" name="correo" class="input"><br>
+
+		<label for="contraseña" class="texto">Contraseña:</label><br>
+		<input type="password" id="contraseña" name="contraseña" class="input"><br>
+
+		<input type="submit" value="Registrarse" class="input">
+	</form>
+
+	<h1 class="titulo1">Subir libro</h1>
+	<form action="subir.php" method="post" class="formulario">
+		<label for="titulo" class="texto">Título:</label><br>
+		<input type="text" id="titulo" name="titulo" class="input"><br>
+
+		<label for="autor" class="texto">Autor:</label><br>
+		<input type="text" id="autor" name="autor" class="input"><br>
+
+		<label for="imagen" class="texto">Imagen:</label><br>
+		<input type="file" id="imagen" name="imagen" class="input"><br>
+
+        <label for="precio" class="texto">Precio:</label><br>
+        <input type="number" id="precio" name="precio" class="input"><br>
+
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" class="tarea"></textarea><br>
+
+        <input type="submit" value="Subir libro" class="input">
+    </form>
+</body>
+</html>

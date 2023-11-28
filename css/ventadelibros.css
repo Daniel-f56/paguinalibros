@@ -1,0 +1,87 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, h2, p, a, button, input, label, textarea, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para la navegación de regreso */
+nav {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+.boton {
+    background-color: #fff;
+    color: #3498db;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para los títulos */
+.titulo1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo para los formularios */
+.formulario {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+    font-size: 1.2em;
+}
+
+.input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.tarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Alineación de elementos dentro del formulario */
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2980b9;
+}
